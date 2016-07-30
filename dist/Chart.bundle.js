@@ -6644,7 +6644,7 @@ module.exports = function(Chart) {
 
 	Chart.controllers.bubble = Chart.DatasetController.extend({
 
-		//dataElementType: Chart.elements.Point,
+		dataElementType: Chart.elements.Point,
 
 		update: function(reset) {
 			var me = this;
